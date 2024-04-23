@@ -1,0 +1,16 @@
+.block {
+    border-top: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
+    width: 1000px;
+    max-width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.content {
+    text-align: left;
+}
+
+.verify {
+    margin-bottom: 3px;
+}

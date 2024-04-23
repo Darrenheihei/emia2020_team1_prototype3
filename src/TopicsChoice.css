@@ -1,0 +1,9 @@
+.TopicsChoice {
+    display: flex;
+    justify-content: center;
+}
+
+.topicButton {
+    margin: 10px;
+    padding: 5px;
+}
