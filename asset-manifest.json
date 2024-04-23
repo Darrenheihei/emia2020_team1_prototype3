@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emia2020_team1_prototype3/static/css/main.9e76010e.css",
+    "main.js": "/emia2020_team1_prototype3/static/js/main.2799084c.js",
+    "index.html": "/emia2020_team1_prototype3/index.html",
+    "main.9e76010e.css.map": "/emia2020_team1_prototype3/static/css/main.9e76010e.css.map",
+    "main.2799084c.js.map": "/emia2020_team1_prototype3/static/js/main.2799084c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e76010e.css",
+    "static/js/main.2799084c.js"
+  ]
+}
