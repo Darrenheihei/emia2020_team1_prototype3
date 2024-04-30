@@ -1,0 +1,13 @@
+.SystemConvBlock {
+    border-radius: 5px;
+    background-color: #FDFD96;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+}
+
+.systemMsg {
+    text-align: left;
+}

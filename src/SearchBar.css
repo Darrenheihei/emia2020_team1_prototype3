@@ -4,6 +4,7 @@
     max-width: 80%;
     border: 2px solid #C0C0C0;
     border-radius: 10px;
+    
 }
 
 .SearchBarForm {
@@ -15,7 +16,7 @@
     width: 70%;
     left: 50%;
     transform: translate(-45%);
-    background-color: white;
+    background-color: #E0DEF0;
     padding-bottom: 50px;
     padding-top: 10px;
 }

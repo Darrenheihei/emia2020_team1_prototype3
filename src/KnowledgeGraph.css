@@ -1,0 +1,13 @@
+.KnowledgeGraphDescription {
+    text-align: left;
+    padding: 10px;
+}
+
+.ImgContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.KnowledgeGraphImg {
+    height: 400px;
+}

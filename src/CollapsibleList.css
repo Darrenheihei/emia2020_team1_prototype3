@@ -1,0 +1,26 @@
+.collapsibleList {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.collapsible-title {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.collapsible-heading {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px;
+}
+
+.collapsible-btn {
+    border: hidden;
+    background-color: transparent;
+}
+
+.collapsible-content {
+    word-wrap: break-word;
+}

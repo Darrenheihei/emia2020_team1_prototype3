@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import { v4 as uuidv4 } from 'uuid'
 import "./SearchBar.css"
 
 export default function SearchBar(props){
@@ -6,16 +7,24 @@ export default function SearchBar(props){
     
     function handleChange(event){
         setContent(event.target.value)
+        
+        const strLen = event.target.value.length
+        const lastChar = event.target.value.charAt(strLen - 1)
+        if (lastChar === '\n'){ // user pressed ENTER
+            handleSubmit(event) // consider it as pressing the submit button
+        }
     }
 
     function handleSubmit(event){
         event.preventDefault()
         // add user's question
-        props.AddNewConv("User", content)
+        const userMsgId = uuidv4()
+        props.AddNewConv(userMsgId, "User", content, "")
         // clear the text input area
         setContent("") 
         // add AI's response
-        props.AddNewConv("AI", "Template response (include the response content and reference of the response, e.g. page number of the reference book)")
+        const AiMsgId = uuidv4()
+        props.AddNewConv(AiMsgId, "AI", content, "")
     }
 
     return (
