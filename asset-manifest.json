@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/emia2020_team1_prototype3/static/css/main.3647a1ee.css",
-    "main.js": "/emia2020_team1_prototype3/static/js/main.28544d41.js",
+    "main.js": "/emia2020_team1_prototype3/static/js/main.66824e7e.js",
     "static/media/math_kg.png": "/emia2020_team1_prototype3/static/media/math_kg.3daa85267d3073849ebf.png",
     "static/media/goToBottom.png": "/emia2020_team1_prototype3/static/media/goToBottom.e4beaceebdd8ec0be166.png",
     "static/media/methane_kg.png": "/emia2020_team1_prototype3/static/media/methane_kg.55c68aa2816df7cdc1ff.png",
     "index.html": "/emia2020_team1_prototype3/index.html",
     "main.3647a1ee.css.map": "/emia2020_team1_prototype3/static/css/main.3647a1ee.css.map",
-    "main.28544d41.js.map": "/emia2020_team1_prototype3/static/js/main.28544d41.js.map"
+    "main.66824e7e.js.map": "/emia2020_team1_prototype3/static/js/main.66824e7e.js.map"
   },
   "entrypoints": [
     "static/css/main.3647a1ee.css",
-    "static/js/main.28544d41.js"
+    "static/js/main.66824e7e.js"
   ]
 }
